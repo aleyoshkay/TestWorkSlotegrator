@@ -1,5 +1,7 @@
 package stolegrator.api.executor;
+
 import io.restassured.http.ContentType;
+
 import java.util.Random;
 
 public class BaseExecutor implements TestBase {

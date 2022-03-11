@@ -2,16 +2,17 @@ package stolegrator.api.chekers;
 
 import io.restassured.response.Response;
 import lombok.extern.slf4j.Slf4j;
-import org.hamcrest.CoreMatchers;
-import org.hamcrest.MatcherAssert;
-import org.junit.jupiter.api.Assertions;
-import org.springframework.stereotype.*;
 import stolegrator.api.model.CreateUserResponse;
 import stolegrator.api.model.GetTokenResponse;
 import stolegrator.api.model.RegisterNewUserRequest;
 import stolegrator.api.model.RegisterNewUserResponse;
+import org.hamcrest.CoreMatchers;
+import org.hamcrest.MatcherAssert;
+import org.junit.jupiter.api.Assertions;
+import org.springframework.stereotype.Service;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @Slf4j
 @Service

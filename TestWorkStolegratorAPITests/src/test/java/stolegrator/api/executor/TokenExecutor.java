@@ -1,11 +1,10 @@
 package stolegrator.api.executor;
 
 import io.restassured.response.Response;
-import org.springframework.boot.test.context.TestComponent;
-import org.springframework.stereotype.Service;
 import stolegrator.api.model.CreateUserRequest;
 import stolegrator.api.model.GetTokenRequest;
 import stolegrator.api.model.RegisterNewUserRequest;
+import org.springframework.stereotype.Service;
 
 import static io.restassured.RestAssured.given;
 

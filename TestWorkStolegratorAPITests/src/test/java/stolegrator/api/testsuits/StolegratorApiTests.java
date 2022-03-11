@@ -1,15 +1,15 @@
 package stolegrator.api.testsuits;
 
+import stolegrator.api.chekers.StolegratorChekers;
+import stolegrator.api.executor.TokenExecutor;
 import io.restassured.response.Response;
+import stolegrator.api.model.*;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import stolegrator.api.chekers.StolegratorChekers;
-import stolegrator.api.executor.TokenExecutor;
-import stolegrator.api.model.*;
 
-import static org.apache.http.HttpStatus.*;
 import static stolegrator.api.executor.BaseExecutor.*;
+import static org.apache.http.HttpStatus.*;
 
 public class StolegratorApiTests {
     TokenExecutor tokenExecutor = new TokenExecutor();
